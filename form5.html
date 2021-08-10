@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Bin- Forms</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+</head>
+
+<body class="login-page sidebar-collapse">
+    <!-- Navbar -->
+    <nav class="navbar ag-height navbar-expand-lg bg-primary fixed-top navbar-default" style="z-index:0;">
+    <div class="container">
+    <div class="navbar-translate">
+    <a class="navbar-brand" href="index.html" rel="tooltip" title="GO HOME" data-placement="bottom">
+                   AI FORM
+    </a>
+    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-bar bar1"></span>
+    <span class="navbar-toggler-bar bar2"></span>
+    <span class="navbar-toggler-bar bar3"></span>
+    </button>
+    </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link text-light" href="form2.html">Get Started</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-light" href="login.html">Login</a>
+        </li>
+        </ul>
+        </div>
+        </div>
+
+    </nav>
+
+    <!-- End Navbar -->
+
+    <div class="wrapper" style="background-image:url( assets/img/form.jpeg); background-size:cover">
+        <div class="section-tab wrapper container">
+            <div class="section container col-md-8" data-background-color="orange">
+                <div class="col-md-12">
+                    <div class="card card-plain">
+                        <form class="container" method="" action="goal3_predict.jsp">
+                            <div class="header header-primary text-center">
+                                <div class="logo-container">
+                                    <h6>Business </h6>
+                                </div>
+                            </div>
+                            <div class="align-content-start">
+                                <div class="space-10"></div>
+                                <h6>On a scale of 100, rate the return on your investment?</h6>
+                              
+                            <div class="radio">
+                                        <input type="radio" name="investment" id="radio1" value="0To25">
+                                        <label for="radio1">
+                                            0% - 25%
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" name="investment" id="radio2" value="26To50">
+                                        <label for="radio2">
+                                            25% - 50%
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" name="investment" id="radio3" value="51To75">
+                                        <label for="radio3">
+                                            51% - 75%
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" name="investment" id="radio4" value="76To100">
+                                        <label for="radio4">
+                                            76% - 100%
+                                        </label>
+
+                                    </div>
+                                                            
+                            <div class="space-10"></div>
+                        <!-- <h6>for how long has your business being in operation?</h6>
+                                 <div class="radio">
+                                <input type="radio" name="operation" id="radio5" value="0To5">
+                                <label for="radio5">
+                                  0 - 5yrs
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="operation" id="radio6" value="6To10">
+                                <label for="radio6">
+                                    6 - 10yrs
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="operation" id="radio7" value="10To20">
+                                <label for="radio7">
+                                   10 - 20yrs
+                                </label>
+                            </div>-->
+                                 
+                                
+                            <h6> do you embark on any marketing activities for your business? </h6>
+                            <div class="radio">
+                                <input type="radio" name="marketing" id="radio8" value="YES">
+                                <label for="radio8">
+                                   Yes
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="marketing" id="radio9" value="NO">
+                                <label for="radio9">
+                                    No
+                                </label>
+                            </div>
+                            <div class="space-10"></div>
+                                                              
+                                <h6> have you done any kind of business before?</h6>
+                                 <div class="radio">
+                                <input type="radio" name="businesskind" id="radio10" value="YES">
+                                <label for="radio10">
+                                   Yes
+                                </label>
+                            </div>
+                                 <div class="radio">
+                                <input type="radio" name="businesskind" id="radio11" value="NO">
+                                <label for="radio11">
+                                   No
+                                </label>
+                            </div>    
+                                <div class="space-10"></div>
+                          
+                                <h6> please describe briefly the kind of your business?</h6>
+                                 <div class="text">
+                                <input type="text" name="description" id="text2" value="">
+                                 </div>
+                                
+                                      <div class="space-10"></div>
+                          
+                                <h6>if you are not running the business again, how long was your business in operation?</h6>
+                                   <div class="text">
+                                <input type="text" name="operationexit" id="text3" value="">
+                                 </div>
+                                 
+                                
+                                
+                                     <div class="space-10"></div>
+                          
+                                <h6> how has legal issues affected your business in the past?</h6>
+                                 <div class="radio">
+                                <input type="radio" name="legal" id="radio12" value="positively">
+                                <label for="radio1">
+                                   Positively
+                                </label>
+                            </div>
+                                 <div class="radio">
+                                <input type="radio" name="legal" id="radio13" value="negatively">
+                                <label for="radio13">
+                                   Negatively
+                                </label>
+                            </div>  
+                                <div class="radio">
+                                <input type="radio" name="legal" id="radio14" value="neutral">
+                                <label for="radio14">
+                                   Neutral
+                                </label>
+                            </div> 
+                                
+                                     <div class="space-10"></div>
+                          
+                                <h6> has cheating and fraud affected your business in the past?</h6>
+                                 <div class="radio">
+                                <input type="radio" name="fraud" id="radio15" value="YES">
+                                <label for="radio15">
+                                   Yes
+                                </label>
+                            </div>
+                                 <div class="radio">
+                                <input type="radio" name="fraud" id="radio16" value="NO">
+                                <label for="radio16">
+                                   No
+                                </label>
+                            </div>  
+                                <div class="footer text-center">
+                                    <input class="btn bg-lg btn-default" type="submit" name="submit" value="send" />
+                                </div>
+                            </div>  
+                            <div class="footer text-center">
+                                <a class="btn bg-lg btn-default" href="index.html">GET STARTED</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!--     <footer class="footer">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                               DaLia
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                About Us
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                Blog
+                            </a>
+                    </li>
+                    <!li>
+                        <a href="https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md">
+                                MIT License
+                            </a>
+                    </li>
+    </ul>
+    </nav>
+    <div class="copyright">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear())
+        </script>, Designed by
+        <a href="#">dalia</a>
+        <a href="#"></a>.
+    </div>
+    </div>
+    </footer> -->
+
+
+</body>
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+
+</html>
